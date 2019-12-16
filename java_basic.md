@@ -17,6 +17,8 @@
 * Scanner
 * scanner.nextLine() : nextln의 엔터의 메모리 값을 제거(무한루프에서의 문제가 되기에 삭제해야함)
 
+
+
 ```java
 Scanner scanner = new Scanner(System.in);
 
@@ -73,13 +75,13 @@ System.out.printf("숫자입니까? %b %n", Character.isDigit(c));
 * lastIndexOf(' ') : 문자열에서 탐색하는 문자열이 마지막으로 등장하는 위치에 대한 index를 반환
 * substring() : String 타입의 문자열을 자른다
 
-> ```java
-> String url = "http://www.naver.com";
-> System.out.println(url.substring(url.lastIndexOf('/')));
-> //	실행결과
-> //	6
-> //	/www.naver.com
-> ```
+ ```java
+ String url = "http://www.naver.com";
+ System.out.println(url.substring(url.lastIndexOf('/')));
+ //	실행결과
+ //	6
+ //	/www.naver.com
+ ```
 
 * System.arraycopy(num, 0, temp, 0, num.length); num의 인덱스 0부터 temp의 인덱스 0까지 num의 크기만큼 복사
 
