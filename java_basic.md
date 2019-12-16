@@ -1,10 +1,8 @@
-# JAVA
+# JAVA_BASIC
 
-## JAVA 기본
+## JAVA 기본 명령어
 
 ### API
-
-> String 타입
 
 * trim() : String 형에서 블랭크 제거
 * scanner.nextLine() : nextln의 엔터의 메모리 값을 제거(무한루프에서의 문제가 되기에 삭제해야함)
@@ -13,22 +11,12 @@
 * toUpperCase() : String 내용을 대문자로 변환
 * length() : 크기 표시
 
-
-
-
-
 * Character.isDigit() : 문자열이 존재하는 검사
-
-
 
 * equals() : 주소값이 같음을 확인하는 함수
 * equalsIgnoreCase() : 주소안의 데이터 값이 같은지 비교하는 함수
 
-
-
 * Math.random() : 0 <= x < 1 의 값을 생성함
-
-
 
 * lastIndexOf(' ') : Stirng의 타입의 몇번째 인덱스
 * substring() : String 타입의 문자열을 자른다
@@ -46,5 +34,5 @@
 
 
 
-System.arraycopy(num, 0, temp, 0, num.length); num의 인덱스 0부터 temp의 인덱스 0까지 num의 크기만큼 복사
+* System.arraycopy(num, 0, temp, 0, num.length); num의 인덱스 0부터 temp의 인덱스 0까지 num의 크기만큼 복사
 
