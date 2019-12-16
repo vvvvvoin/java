@@ -7,7 +7,9 @@ public class Test05 {
 		System.out.println(num);
 
 		char c = '9';
+		int a = '1';
 		System.out.printf("숫자입니까? %b %n", Character.isDigit(c));
+		System.out.printf("숫자입니까? %b %n", Character.isDigit(a));
 
 		System.out.println("abc" + "def"); // 문자열에 +는 성능저하의 원인
 		System.out.println(1 + 1 + 1);

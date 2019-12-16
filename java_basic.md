@@ -20,20 +20,26 @@
 * toUpperCase() : String 내용을 대문자로 변환
 * length() : 크기 표시
 
-* Character.isDigit() : 문자열이 존재하는 검사
+* Character.isDigit() : char, int 타입의 변수 값이 숫자인지를 true, false로 표현
 
-* equals() : 주소값이 같음을 확인하는 함수
-* equalsIgnoreCase() : 주소안의 데이터 값이 같은지 비교하는 함수
+```java
+char c = '9';
+System.out.printf("숫자입니까? %b %n", Character.isDigit(c));
+//실행결과
+//숫자입니까? true 
+```
+
+* equals() : 주소값이 같음을 확인
+* equalsIgnoreCase() : 주소안의 데이터 값이 같은지 비교
 
 * Math.random() : 0 <= x < 1 의 값을 생성함
 
-* lastIndexOf(' ') : Stirng의 타입의 몇번째 인덱스
+* lastIndexOf(' ') : 문자열에서 탐색하는 문자열이 마지막으로 등장하는 위치에 대한 index를 반환
 * substring() : String 타입의 문자열을 자른다
 
 > ```java
 > String url = "http://www.naver.com";
 > System.out.println(url.substring(url.lastIndexOf('/')));
-> 
 > //	실행결과
 > //	6
 > //	/www.naver.com
