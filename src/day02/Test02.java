@@ -10,7 +10,7 @@ public class Test02 {
 
 		int size = msg.length();
 
-		System.out.println(size);
+		System.out.println(msg.length());
 		System.out.println(msg.toUpperCase());
 
 		Date date = new Date();

@@ -27,7 +27,7 @@ public class Test03 {
 		System.out.println(Arrays.toString(num2));
 		System.out.println(Arrays.toString(num3));
 		
-		String url = "http://myweb/admin/login.do";
+		String url = "http://www.naver.com";
 		System.out.println(url.lastIndexOf('/'));
 		System.out.println(url.substring(url.lastIndexOf('/')));
 		
