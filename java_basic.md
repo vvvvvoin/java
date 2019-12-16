@@ -1,8 +1,17 @@
 # JAVA_BASIC
 
-## JAVA 기본 명령어
+## 기초 기본 명령어
 
-### API
+### ECLIPS 기본 단축키
+
+* ctrl + space bar : 리스트, 축약어 자동완성 (ex) syso)
+* ctrl + shift + F : 자동정렬
+* ctrl + alt + 방향기 : 복사
+* alt + 방향기 : 위치이동
+* ctrl + W : 현재 탭 닫기
+* ctrl + Page up/down : 탭 이동
+
+### JAVA 기본 API
 
 * trim() : String 형에서 블랭크 제거
 * scanner.nextLine() : nextln의 엔터의 메모리 값을 제거(무한루프에서의 문제가 되기에 삭제해야함)
@@ -29,10 +38,6 @@
 > //	6
 > //	/www.naver.com
 > ```
-
-
-
-
 
 * System.arraycopy(num, 0, temp, 0, num.length); num의 인덱스 0부터 temp의 인덱스 0까지 num의 크기만큼 복사
 
